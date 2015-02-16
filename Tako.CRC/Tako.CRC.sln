@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tako.CRC", "Tako.CRC\Tako.CRC.csproj", "{2EE9E1D3-AB99-4602-9C38-3B53AC114C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tako.CRC.UnitTestProject", "Tako.CRC.UnitTestProject\Tako.CRC.UnitTestProject.csproj", "{F6D4A44B-7E87-45D4-B109-058E07C47DE6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs15
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tako.CRC.UnitTestProject\\Tako.CRC.UnitTestProject.csproj
+		SccProjectName1 = Tako.CRC.UnitTestProject
+		SccLocalPath1 = Tako.CRC.UnitTestProject
+		SccProjectUniqueName2 = Tako.CRC\\Tako.CRC.csproj
+		SccProjectName2 = Tako.CRC
+		SccLocalPath2 = Tako.CRC
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 68ccee62-b76c-4d2b-9773-15024487568b
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EE9E1D3-AB99-4602-9C38-3B53AC114C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE9E1D3-AB99-4602-9C38-3B53AC114C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE9E1D3-AB99-4602-9C38-3B53AC114C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE9E1D3-AB99-4602-9C38-3B53AC114C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D4A44B-7E87-45D4-B109-058E07C47DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D4A44B-7E87-45D4-B109-058E07C47DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D4A44B-7E87-45D4-B109-058E07C47DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D4A44B-7E87-45D4-B109-058E07C47DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
