@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tako.Modbus.Core", "Tako.Modbus.Core\Tako.Modbus.Core.csproj", "{CA01BC59-5C73-49FE-8CED-EC22B475D274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tako.Modbus.Client", "Tako.Modbus.Client\Tako.Modbus.Client.csproj", "{82534048-CC73-4DF9-A32E-615190B25542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tako.Modbus.Client.UnitTest", "Tako.Modbus.Client.UnitTest\Tako.Modbus.Client.UnitTest.csproj", "{B51024FC-05CA-4456-9F07-1DB4D69ACBBE}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs15
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tako.Modbus.Client.UnitTest\\Tako.Modbus.Client.UnitTest.csproj
+		SccProjectName1 = Tako.Modbus.Client.UnitTest
+		SccLocalPath1 = Tako.Modbus.Client.UnitTest
+		SccProjectUniqueName2 = Tako.Modbus.Client\\Tako.Modbus.Client.csproj
+		SccProjectName2 = Tako.Modbus.Client
+		SccLocalPath2 = Tako.Modbus.Client
+		SccProjectUniqueName3 = Tako.Modbus.Core\\Tako.Modbus.Core.csproj
+		SccProjectName3 = Tako.Modbus.Core
+		SccLocalPath3 = Tako.Modbus.Core
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA01BC59-5C73-49FE-8CED-EC22B475D274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA01BC59-5C73-49FE-8CED-EC22B475D274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA01BC59-5C73-49FE-8CED-EC22B475D274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA01BC59-5C73-49FE-8CED-EC22B475D274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82534048-CC73-4DF9-A32E-615190B25542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82534048-CC73-4DF9-A32E-615190B25542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82534048-CC73-4DF9-A32E-615190B25542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82534048-CC73-4DF9-A32E-615190B25542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51024FC-05CA-4456-9F07-1DB4D69ACBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51024FC-05CA-4456-9F07-1DB4D69ACBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51024FC-05CA-4456-9F07-1DB4D69ACBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51024FC-05CA-4456-9F07-1DB4D69ACBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = e6c5dbd8-29ec-4349-82b8-97de0b4f4c8d
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82534048-CC73-4DF9-A32E-615190B25542}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tako.Modbus.Client</RootNamespace>
+    <AssemblyName>Tako.Modbus.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Tako.Modbus.Client.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Tako.Modbus.Client.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\RtuModbusSocket.cs" />
+    <Compile Include="src\TcpModbusSocket.cs" />
+    <Compile Include="src\Contract\ModbusClientBase.cs" />
+    <Compile Include="src\Contract\ModbusDataConvertBase.cs" />
+    <Compile Include="src\Contract\ModbusRequestBase.cs" />
+    <Compile Include="src\Contract\ModbusResponseBase.cs" />
+    <Compile Include="src\IModbusSocket.cs" />
+    <Compile Include="src\Serial\Ascii\AsciiModbusClient.cs" />
+    <Compile Include="src\Convert\AsciiModbusDataConvert.cs" />
+    <Compile Include="src\Serial\Ascii\AsciiModbusRequest.cs" />
+    <Compile Include="src\Serial\Ascii\AsciiModbusResponse.cs" />
+    <Compile Include="src\Convert\HexModbusDataConvert.cs" />
+    <Compile Include="src\Contract\IModbusTransport.cs" />
+    <Compile Include="src\ModbusClientAdpater.cs" />
+    <Compile Include="src\Serial\Rtu\RtuModbusClient.cs" />
+    <Compile Include="src\Serial\Rtu\RtuModbusRequest.cs" />
+    <Compile Include="src\Serial\Rtu\RtuModbusResponse.cs" />
+    <Compile Include="src\Serial\SerialModbusConnectConifg.cs" />
+    <Compile Include="src\Tcp\TcpModbusClient.cs" />
+    <Compile Include="src\Tcp\TcpModbusConnectConfig.cs" />
+    <Compile Include="src\Tcp\TcpModbusRequest.cs" />
+    <Compile Include="src\Tcp\TcpModbusResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tako.Modbus.Core\Tako.Modbus.Core.csproj">
+      <Project>{ca01bc59-5c73-49fe-8ced-ec22b475d274}</Project>
+      <Name>Tako.Modbus.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
